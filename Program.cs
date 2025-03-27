@@ -1,4 +1,23 @@
-﻿Console.ForegroundColor=ConsoleColor.Green;
+﻿String tresfios;
+Console.ForegroundColor=ConsoleColor.Green;
+Console.Write("Cebolinha:");
+Console.ResetColor();
+Console.WriteLine("DIGITE UMA FRASE QUE O CEBOLINHA FALARIA");
+Console.ForegroundColor=ConsoleColor.DarkBlue;
+Console.WriteLine("SUA FRASE :");
+Console.ResetColor();
+tresfios=Console.ReadLine()!;
+Console.Write($"{tresfios}".Replace("r","l"));
+
+Console.WriteLine();
+Console.ForegroundColor=ConsoleColor.Red;
+Console.WriteLine("Pressione algum botão para ir para a outra etapada da atividade...");
+Console.ResetColor();
+Console.ReadKey(true);
+Console.WriteLine();
+
+//outra variavel da atividade
+Console.ForegroundColor=ConsoleColor.Green;
 Console.Write("Cebolinha:");
 Console.ResetColor();
 Console.Write(" Olá, eu sou o Cebolinha, poderia me ajudar a fazer uma atividade?".Replace("r","l"));
@@ -36,4 +55,3 @@ Console.Write(@"
 | Vinicius|
 +---------+");
 Console.ResetColor();
-
